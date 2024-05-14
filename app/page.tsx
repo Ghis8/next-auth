@@ -2,7 +2,7 @@
 import { getServerSession } from "next-auth/next";
 import Image from "next/image";
 import Link from "next/link";
-import { authOptions } from "./api/auth/[...nextauth]/route";
+import { authOptions } from "./lib/auth";
 
 
 export default async function App() {
