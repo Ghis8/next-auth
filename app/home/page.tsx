@@ -4,7 +4,7 @@ import Image from 'next/image'
 import { useRouter } from 'next/navigation'
 import React from 'react'
 
-function page() {
+function HomePage() {
     const router=useRouter()
   return (
     <main className="flex-1 bg-black min-h-screen px-10">
@@ -26,4 +26,4 @@ function page() {
   )
 }
 
-export default page
+export default HomePage

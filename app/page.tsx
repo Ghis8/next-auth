@@ -4,7 +4,7 @@ import { useSession } from "next-auth/react";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
 
-export default function Home() {
+export default function App() {
   const router=useRouter()
   const {data:session}=useSession()
   return (
